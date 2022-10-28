@@ -1,0 +1,65 @@
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Registration Page</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="css/register.style.css" />
+   </head>
+   <body>
+      <div class="container">
+         <h1>Sign Up!</h1>
+         <p>Create account by filling the form below.</p>
+         <div class="unsplash">
+            <img src="unsplash.png" alt="human" />
+         </div>
+         <form action="#">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" placeholder="first name" /><br />
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" placeholder="Last name" /><br />
+            <label for="phone">Phone Number</label>
+            <input
+               type="tel"
+               name="phone"
+               placeholder="Enter phone number"
+            /><br />
+            <label for="email">Email address</label>
+            <input
+               type="email"
+               name="email"
+               placeholder="ozomma@gmail.com"
+            /><br />
+            <label for="gender">What is your gender?</label>
+            <select id="gender" name="gender">
+               <option disabled selected value>
+                  please select your gender
+               </option>
+               <option value="Male">Male</option>
+               <option value="Female">Female</option>
+               <option value="Female">Others</option>
+            </select>
+            <br />
+            <label for="birth">Date of Birth</label>
+            <input type="date" name="birth" placeholder="Enter D.O.B" /><br />
+            <label for="color">Favorite color</label>
+            <select id="color" name="color">
+               <option disabled selected value>Choose a color</option>
+               <option value="red">Red</option>
+               <option value="yellow">Yellow</option>
+               <option value="green">Green</option>
+               <option value="blue">Blue</option>
+               <option value="pink">Pink</option>
+            </select>
+            <input type="button" name="create" value="Create an Account" />
+            <p>Already have an account? <a href="/">Login</a></p>
+         </form>
+      </div>
+   </body>
+</html>
